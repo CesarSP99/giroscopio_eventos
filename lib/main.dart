@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
     Data data = Data(
       eventDate: DateTime.now(),
       eventDescription: evento,
-      nameDevice: "Xiaomi Mi 9 - Acelerometro",
+      nameDevice: "Xiaomi Mi 9 - Giroscopio",
     );
     var response = await http.post(
       _url,
